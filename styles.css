@@ -188,6 +188,7 @@
       color: #bbb;
       text-align: center;
       padding: 30px 20px;
+      bottom: 0;
     }
 
     /* @media(max-width: 768px) {
@@ -277,3 +278,20 @@
         font-size: 2rem;
       }
     }
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 160px auto;
+    padding: 40px;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin: 30px 0;
+}
+
